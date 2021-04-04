@@ -3,6 +3,8 @@
 #include <string>
 #include "crypto.h"
 
+#include "easylogging++.h"
+
 //test
 
 namespace ab::bitcoin::core 

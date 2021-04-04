@@ -1,13 +1,15 @@
-#pragma once
-
 #include "network.h"
 
 namespace ab::bitcoin::wallet 
 {
+using namespace ab::bitcoin::core;
 
-class LightweightWallet : ab::bitcoin::network::ActorInterface
+class LightweightWallet : public ab::bitcoin::network::ActorInterface
 {
-
+public:
+virtual void OnTrans(const Transaction & trans) override;
+ 
 };
+
 
 }

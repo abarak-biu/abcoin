@@ -7,9 +7,9 @@
 			"command": "C:\\mingw\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
-				"${file}",
+				"${workspaceFolder}\\**.cpp",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"abcoin.exe"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
